@@ -1,0 +1,12 @@
+[Unit]
+Description=Intel Arrow Lake-H Power Limit and Current Unlock
+After=multi-user.target sleep.target thermald.service tuned.service
+Wants=sleep.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/intel-power-unlock.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target sleep.target
