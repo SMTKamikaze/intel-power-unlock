@@ -189,6 +189,4 @@ It should display: `Active: active (exited)` with `status=0/SUCCESS`.
 
 ---
 
-## 📄 License
-
-MIT License. Contributions and feedback for other laptop models and platforms are welcome!
+## Was resolved with AI ... even the README.md is made by it except this sentence ... Increasing entropy !!!
